@@ -6,7 +6,7 @@ app.use(express.static("public"))
 
 app.get('/api/ip', (req, res) => {
   res.setHeader("Content-Type", "text/plain");
-  res.end(req.ip);
+  res.end(req.headers['x-real-ip'] || req.connection.remoteAddress);
 })
 
 app.get('/api/google', (req, res) => {
