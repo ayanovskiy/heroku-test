@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+body {
+    font-family: 'Patrick Hand', cursive;
+    background: url(https://media.istockphoto.com/id/1350782130/photo/fur-texture-top-view-turquoise-fur-background-fur-pattern-texture-of-turquoise-shaggy-fur.jpg?b=1&s=170667a&w=0&k=20&c=ewbZVlPtUhyVRbm5sT_lUiuS8ThHF7UyTf1-34VU3pY=);
+    padding: 100px 0;
+
+}
+
+.conteiner{
+    width: 800px;
+    min-height: 800px;
+    border: 10px solid rgb(136, 219, 219) ;
+    margin: 0 auto;
+    background: rgb(136, 219, 219);
+}
+
+.header{
+    display: flex;
+    height: 150px;
+
+}
+
+.title-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    font-size: 30px;
+    background: url(https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTgzfHxjb2RlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60) no-repeat center / cover ;
+    color: white;
+    margin-right: 10px;
+
+}
+
+.userpic{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    background: url(https://i.pinimg.com/originals/41/9d/54/419d5479ec3c3d495cefca011277da16.jpg) no-repeat center / cover;
+    
+}
+
+.nav ul {
+    display: flex;
+
+}
+
+.nav li {
+
+}
+
+.nav li a {
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    color: rgb(8, 82, 102);
+
+
+}
+
